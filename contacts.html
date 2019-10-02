@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body >
+<div class="container" background="https://wpforms.com/wp-content/uploads/2017/07/beautiful-contact-form-designs-you-can-steal.jpg">
+  <form >
+  	<h3>Contact Us</h3>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Email adress</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="South Africa">South Africa</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Leave you message here or comment.." style="height:200px"></textarea>
+
+    <input id="sub" onclick="myFunction();" type="submit" value="Submit">
+
+    	
+    
+
+  </form>
+</div>
+
+<script>
+  function myFunction() {
+  var num =document.getElementById("sub").innerHTML;
+  alert("Thank you, we'll respond to you email soon.");
+}
+</script>
+</body>
+</html>
